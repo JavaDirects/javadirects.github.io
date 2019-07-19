@@ -1,0 +1,161 @@
+<html class=" js flexbox canvas canvastext webgl touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style=""><!--<![endif]--><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>成品展示——JumHuang</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=10.0,user-scalable=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/owl-carousel.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/templatemo-style.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<style>
+button.accordion
+{
+background-color: #eee;
+color: #444;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover
+{
+background-color: #ddd;
+} 
+
+button.accordion:after
+{
+/* Unicode character for "plus" sign (+) is '\02795' */
+content: '\02795';
+font-size: 13px;
+color: #777;
+float: right;
+margin-left: 5px;
+}
+
+button.accordion.active:after
+{
+/* Unicode character for "minus" sign (-) is '\2796' */ 
+content: "\2796";
+}
+
+div.panel
+{
+padding: 0 18px;
+background-color: white;
+max-height: 0;
+overflow: hidden;
+transition: 0.6s ease-in-out;
+opacity: 0;
+}
+
+div.panel.show
+{
+opacity: 1;
+max-height: 500px;
+}
+</style>
+</head>
+<body>
+
+	<!-- SITE HEADER -->
+	<div class="site-top" id="top">
+	 <div class="site-top-overlay"></div>
+	 <div class="site-header">
+		<div class="container">
+		 <a href="index.html" class="site-brand">
+			<img src="images/logo.png">
+		 </a>
+		 <div class="main-navigation">
+			<a href="#" class="visible-xs toggle-menu"><i class="fa fa-bars"></i></a>
+			<nav class="site-navigation">
+			 <ul style="display: none;">
+				<li><a href="index.html">AIDE下载</a></li>
+				<li><a href="support.html">支持库下载</a></li>
+				<li><a href="maven.html">Maven库下载</a></li>
+				<li><a href="resources.html">示例下载</a></li>
+	 		<li><a href="modify.html">AIDE破解</a></li>
+		  <li><a href="#">成品展示</a></li>
+				<li><a href="about.html">关于我们</a></li>
+			 </ul>
+			</nav>
+		 </div> <!-- .main-navigation -->
+		</div>
+	 </div> <!-- .site-header -->
+
+	 <div class="welcome-text">
+		<div class="container text-center white-text">
+		 <div class="col-xs-8 col-xs-offset-2">
+			<h1>成品展示</h1>
+			<h4>展示我们的成品软件，您可以下载体验，软件中自带反馈，可在软件中反馈。</h4>
+		 </div>
+		</div>
+	 </div>
+	</div> <!-- .site-top -->
+
+	<!-- POSTS -->
+	<section id="posts" class="page-section">
+	 <div class="container">
+		<div class="row">
+		 <button class="accordion">简易浏览器</button>
+		 <div class="panel">
+			<p>一个一直在更新的浏览器，有。。。</p>
+		 </div>
+
+		 <button class="accordion">AIDECodeHelper</button>
+		 <div class="panel">
+			<p>一个Android学习软件，目前正在制作中。。。</p>
+		 </div>
+
+		 <button class="accordion">APK自助生成</button>
+		 <div class="panel">
+			<p>一个apk生成软件，不需要任何的编程经验，简单易懂，嗯。。。</p>
+		 </div>
+		</div>
+		<div class="text-center">
+		 <a href="#" class="button default go-top">返回顶部</a>
+		</div>
+	 </div>
+	</section>
+
+	<!-- SITE-FOOTER -->
+	<footer class="site-footer">
+	 <div class="container text-center">
+		<div class="row">
+
+		</div>
+		<div class="row">
+		 <div class="col-md-12">
+			<p class="copyright-text">Copyright © 2016-2019 <a href="mqqapi://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin=3116075662">JumHuang</a></p>
+		 </div>
+		</div>
+	 </div>
+	</footer>
+
+	<script src="js/vendor/jquery-1.10.2.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+
+<script>
+var acc = document .getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++)
+{
+	acc[i].onclick = function() {
+		this.classList.toggle("active");
+		this.nextElementSibling.classList .toggle("show");
+	}
+}
+</script>
+</body>
+</html>
